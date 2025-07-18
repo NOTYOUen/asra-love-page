@@ -1,0 +1,32 @@
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffe6f0, #fff);
+  text-align: center;
+}
+
+.header {
+  background-color: #ff4d88;
+  color: white;
+  padding: 30px;
+  font-size: 28px;
+}
+
+.content {
+  padding: 40px 20px;
+  font-size: 20px;
+  color: #444;
+}
+
+.love-img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #660033;
+  color: #ffd9ec;
+  padding: 20px;
+  font-size: 16px;
+}
