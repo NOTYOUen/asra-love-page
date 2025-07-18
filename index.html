@@ -2,22 +2,66 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>برای اسرا جانم ❤️</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Vazirmatn", sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      direction: rtl;
+      text-align: center;
+    }
+
+    .card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      max-width: 400px;
+      animation: fadeIn 2s ease;
+    }
+
+    .card h1 {
+      color: #e91e63;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    .love-img {
+      width: 120px;
+      margin-top: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
 </head>
 <body>
-  <div class="header">
-    <h1>💖 اسرا جانم 💖</h1>
-  </div>
-
-  <div class="content">
-    <p>هر روز که می‌گذره، بیشتر مطمئن می‌شم که حضور تو قشنگ‌ترین اتفاق زندگیمه 🌹</p>
+  <div class="card">
+    <h1>اسرا جانم ❤️</h1>
+    <p>هر روز که می‌گذره، بیشتر مطمئن می‌شم</p>
+    <p>که حضور تو قشنگ‌ترین اتفاق زندگیمه 🌹</p>
     <p>دوستت دارم با تمام وجودم 💋</p>
-    <img src="https://i.imgur.com/3e1hB1B.png" alt="قلب عاشقانه" class="love-img" />
-  </div>
-
-  <div class="footer">
-    <p>با عشق از طرف کاکوت 😎❤️</p>
+    <img src="https://i.imgur.com/w1UR4Fv.png" alt="قلب عاشقانه" class="love-img" />
   </div>
 </body>
 </html>
